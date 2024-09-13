@@ -86,3 +86,5 @@ packageRules: [
 and i even get the digest into the branch name like = "branchName": "renovate/ami_id-amazon-eks-node-1.29-vxxxx-xxxx-ami-123"
 
 So it feels like there is an bug/error in how the digest gets read and renovate reverts to the default wich doesnt include the patch version.
+
+This is a "new" problem with version 38
